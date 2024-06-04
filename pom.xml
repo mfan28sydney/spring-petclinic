@@ -284,8 +284,6 @@
     </license>
   </licenses>
 
-  <repositories>
-
  <repositories>
     <repository>
       <id>central</id>
