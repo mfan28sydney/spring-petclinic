@@ -33,13 +33,11 @@ Deliverables:
 2. Command to obtain and run the docker image
 
 Answer:
-1. Github Actions workflow files - 
-2. 
-
-   
-Jfrog Artifactory image URL : mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
-
-
+1. Github Actions workflow files : /.github/workflows/main.yml
+2. Jfrog Artifactory image URL : mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
+3. Docker file : using spring boot plugin, we can build the image without using docker file. e.g. ./mvnw spring-boot:build-image, developer don't need to maintain the Docker file
+4. readme.md : /readme.md
+5. Xray Scan data export : / xray-scan-results/*
 
 ## Steps to run the project
 
