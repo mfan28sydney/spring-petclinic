@@ -39,7 +39,7 @@ Answer:
    - Githuhttps://github.com/mfan28sydney/spring-petclinic
    - Github Actions workflow files : /.github/workflows/main.yml
    - Jfrog Artifactory image URL : mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
-   - Docker file : using spring boot plugin, we can build the image without using docker file. e.g. ./mvnw spring-boot:build-image, developer don't need to maintain the Docker file
+   - Docker file : using spring boot plugin, we can build the image without using docker file. e.g. ./mvnw spring-boot:build-image, developer don't need to maintain the Docker file and spring boot help optimizing the image size 
    - readme.md : /readme.md
    - Xray Scan data export : / xray-scan-results/*
 2. Command to obtain the docker image
