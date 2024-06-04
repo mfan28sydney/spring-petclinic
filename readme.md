@@ -43,6 +43,7 @@ Answer:
    - readme.md : /readme.md
    - Xray Scan data export : / xray-scan-results/*
 2. Command to obtain the docker image
+
    docker pull mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
 
 
