@@ -33,25 +33,16 @@ Deliverables:
 2. Command to obtain and run the docker image
 
 Answer:
-1. Github Actions workflow files : /.github/workflows/main.yml
-2. Jfrog Artifactory image URL : mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
-3. Docker file : using spring boot plugin, we can build the image without using docker file. e.g. ./mvnw spring-boot:build-image, developer don't need to maintain the Docker file
-4. readme.md : /readme.md
-5. Xray Scan data export : / xray-scan-results/*
-
+1. Github Repo
+   - Githuhttps://github.com/mfan28sydney/spring-petclinic
+   - Github Actions workflow files : /.github/workflows/main.yml
+   - Jfrog Artifactory image URL : mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
+   - Docker file : using spring boot plugin, we can build the image without using docker file. e.g. ./mvnw spring-boot:build-image, developer don't need to maintain the Docker file
+   - readme.md : /readme.md
+   - Xray Scan data export : / xray-scan-results/*
+2. Command to obtain the docker image
+   
 ## Steps to run the project
+   docker pull mickeyfan.jfrog.io/petclinic/spring-petclinic:3.3.0-SNAPSHOT
 
 
-
-
-1. Clone the repository:
-   git clone https://github.com/mfan28sydney/spring-petclinic-demo.git
-   cd spring-petclinic
-
-2. Build the Docker image:
-   docker build -t petclinic:latest .
-
-3. Run the Docker container:
-   docker run -p 8080:8080 petclinic:latest
-
-4. Access the application at http://localhost:8080.
