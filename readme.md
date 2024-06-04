@@ -6,7 +6,7 @@ Task - Build a pipeline:
 1. Use Spring pet-clinic (https://github.com/spring-projects/spring-petclinic) as your project source code
 2. Build a GitHub Actions pipeline with the following steps:
   -Compile the code
-  -Run the tests
+   -Run the tests
   -Package the project as a runnable Docker image
   -Publish the image to JFrog Artifactory in your pipeline
 3.Make sure all dependencies are resolved from Maven Central
