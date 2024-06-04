@@ -10,6 +10,8 @@ Task - Build a pipeline:
   -Package the project as a runnable Docker image
   -Publish the image to JFrog Artifactory in your pipeline
 3.Make sure all dependencies are resolved from Maven Central
+
+
 Deliverables:
 1.GitHub link to the repo including
   -GitHub Actions workflow files within that repo
