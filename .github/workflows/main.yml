@@ -47,7 +47,7 @@ jobs:
         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
       run: |
         echo $DOCKER_PASSWORD | docker login $ARTIFACTORY_URL --username $DOCKER_USER --password-stdin
-        docker tag spring-petclinic:3.3.0-SNAPSHOT $ARTIFACTORY_URL/petclinic/petclinic:latest
+        docker tag spring-petclinic:3.3.0-SNAPSHOT $ARTIFACTORY_URL/petclinic/spring-petclinic:3.3.0-SNAPSHOT
         docker push $ARTIFACTORY_URL/petclinic/petclinic:latest
 
 
